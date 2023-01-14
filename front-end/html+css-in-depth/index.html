@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!--meta http-equiv="X-UA-Compatible" content="IE=edge"-->
+    <!--meta http-equiv="refresh" content="30"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Little LEMON</title>
+
+    <meta property="og:title" content="Nice web page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://absolute.com">
+    <meta property="og:image" content="https://absolute.com/me.jpg">
+
+</head>
+<body>
+    <header>
+        <!-- <img src="images/love_camer.jpg" alt="logo_cmr_coeur" /> -->
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="location.html">About</a></li>
+            <li><a href="blog.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <!--
+        <h1>Activities</h1>
+        <article>
+            <h2>20% off this week</h2>
+            <p>Come down to</p>
+
+            <form action="">
+                <div>
+                    <label for="liste_nom">Nom de la liste</label>
+                    <input type="text" id="liste_nom" placeholder="Nom de la liste" >
+                </div>
+                
+                <div>
+                    <label for="ecart">Nom de la liste</label>
+                    <input type="range" id="ecart" value="5" min="0" max="10" >
+                </div>
+
+                <div>
+                    <label for="gsearch">Search in Google:</label>
+                    <input type="search" id="gsearch" name="gsearch" >
+                </div>
+
+                <div>
+                    <label for="phone">Enter your phone number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}" >
+                </div>
+
+                <div>
+                    <label for="course">Choose a course:</label><br> 
+                    <select id="course" name="courselist" size="4"> 
+                        <option value="html">HTML Introduction</option> 
+                        <option value="css">Styling with CSS</option> 
+                        <option value="js">JavaScript</option> 
+                        <option value="react">React Basics</option> 
+                    </select> 
+                </div>
+            </form>
+        </article>
+        
+        <article>
+            <h2>Nouveau menu</h2>
+            <p>Menus du diners mis a jour</p>
+        </article>
+        -->
+
+        <!-- <form method="POST">
+            <fieldset id="size">
+                <label for="one">
+                    <input type="radio" id="one" value="2" name="size"> One
+                </label><br>
+                
+                <label for="two">
+                    <input type="radio" id="two" value="2" name="size"> Two
+                </label><br/>
+                
+                <label for="three">
+                    <input type="radio" id="three" value="2" name="size"> Three
+                </label>
+            </fieldset>
+
+            <fieldset id="location">
+                <div>
+                    <label for="gallery">Photos: </label>
+                    <input type="file" id="gallery" name="gallery" multiple>
+                </div><br>
+                
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="adress" id="email" multiple>
+                </div>
+            </fieldset>
+        </form> -->
+        
+        <!--
+        <fieldset id="expand">
+            <legend>Personal Info</legend> 
+            <form action="">
+                <div>
+                    <label for="booking_date">Booking Date</label>
+                    <input type="date" name="booking_date" id="booking_date">
+                </div>
+    
+                <div>
+                    <label for="booking_people">Number of people</label>
+                    <input 
+                        type="range" 
+                        name="booking_people" 
+                        id="booking_people" 
+                        min="1" 
+                        max="10" 
+                        value="4" 
+                        oninput="this.nextElementSibling.value = this.value" >
+                    <output>4</output>
+                </div>
+    
+                <div>
+                    <label for="booking_location">Location</label>
+                    <input id="booking_location" name="booking_location" list="locations">
+                    <datalist id="locations">
+                        <option value="DownTown"></option>
+                        <option value="UpTown"></option>
+                    </datalist>
+                </div>
+
+                <label for="appt">Select a time:</label>
+                <input type="time" id="appt" name="appt">
+                
+                <label for="week">Select a week:</label>
+                <input type="week" id="week" name="week">
+                
+                <label for="bdaymonth">Birthday (month and year):</label>
+                <input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01">
+                <!-- <input type="reset" value="reset"> ->
+            </form>
+        </fieldset>
+
+        <article>
+            <audio loop controls>
+                <source src="jesus_solution.mp3" type="audio/mpeg">
+            </audio>
+        </article>
+        -->
+        
+    </section>
+
+    <section>
+        <style>
+            .box{
+                background-color: aquamarine;
+                border-radius: 5px;
+                margin: 2px;
+                padding: 10px;
+            }
+
+            .flex-container{
+                width: auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px;
+                /*
+                flex: 0;
+                
+                align-items: flex-end;
+                flex: 1 1 auto;
+                */
+            }
+
+            .box3{
+                background-color: blanchedalmond;
+                align-self: center;
+                flex: 1 1 auto;
+                /*
+
+                */
+            }
+
+            .box4{
+                /*
+                flex: 1 50%;
+                */
+            }
+
+        </style>
+
+        <div class="flex-container">
+            <div class="box box1">  One..</div>
+            <div class="box box2">  Two..</div>
+            <div class="box box3">  Three..</div>
+            <div class="box box4">  Four..</div>
+            <div class="box box5">  Five..</div>
+            <div class="box box6">  Six..</div>
+            <!--div class="box box7">  Seven..</div-->
+        </div>
+    </section>
+    <footer>
+        <p>Copyright</p>
+    </footer>
+    
+</body>
+</html>
