@@ -1,0 +1,7 @@
+.columns .container:nth-child(1) .male{
+    background-color: aqua;
+
+    flex-basis: 25%;
+}
+
+
