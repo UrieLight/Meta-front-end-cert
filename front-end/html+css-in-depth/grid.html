@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        body{
+            margin: 20px;
+        }
+
+        .box{
+            background-color: #247;
+            color: #fff;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 150%;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns:100px 100px 100px 100px;/* repeat(3, 100px);*/
+            grid-auto-rows: 100px;/*2fr 1fr;*/
+            grid-gap: 10px;
+            background-color: rgb(202, 96, 96);
+        }
+
+        .grid-container{
+            display: grid;
+        }
+
+        .grid-item{
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box a">A</div>
+        <div class="box b">B</div>
+        <div class="box c">C</div>
+        <div class="box d">D</div>
+        <div class="box e">E</div>
+    </div>
+
+    <br />
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+    </div>
+</body>
+</html>
