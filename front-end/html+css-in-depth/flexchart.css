@@ -1,0 +1,40 @@
+.label{
+    background-color: rgb(223, 114, 181);
+    margin: 0;
+    padding: 1em;
+}
+
+.dish{
+    background-color: cadetblue;
+    margin: 0;
+    padding: 1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    align-items: stretch;
+}
+
+.pasta{
+    flex-basis: 35%;
+    background-color: burlywood;
+}
+
+.pizza{
+    flex-basis: 50%;
+    background-color: coral;
+}
+
+.burrito{
+    flex-basis: 15%;
+}
+
+.container{
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+}
