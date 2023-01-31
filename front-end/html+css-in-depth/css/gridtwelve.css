@@ -24,6 +24,8 @@
 .four{
     background-color: lightblue;
     grid-column: 1/ span 4;
+    /*font-size : ;*/
+    background-image: url();
 }
 
 .six{
